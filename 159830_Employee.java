@@ -22,6 +22,9 @@ public class Employee {
 
 		System.out.println("Enter Age:");
 		age = scanner.nextInt();
+		
+		System.out.println("Is Permanent : ");
+		ispermanent=scanner.nextBoolean();
 
 		System.out.println("Enter Gender:");
 		gender = scanner.next().charAt(0);
